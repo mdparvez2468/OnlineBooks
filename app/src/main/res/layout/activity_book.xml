@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#E7E8EA"
+    tools:context=".BookActivity">
+
+
+    <ScrollView
+        android:id="@+id/scroll1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/singlebookimg"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:src="@drawable/one2"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:layout_marginLeft="50dp"
+                android:textStyle="bold"
+                android:text="100 Taka"
+                android:textSize="25sp"
+                android:textColor="#FF5722"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <LinearLayout
+                android:layout_marginRight="50dp"
+                android:orientation="horizontal"
+                android:gravity="right"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+
+                <ImageButton
+                    android:id="@+id/like"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_baseline_thumb_up_24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <ImageButton
+                    android:id="@+id/unlike"
+                    android:padding="10dp"
+                    android:src="@drawable/ic_baseline_thumb_down_24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <ImageButton
+                    android:padding="10dp"
+                    android:src="@drawable/ic_baseline_share_24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginLeft="50dp"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:background="#FDFCFC"
+                    android:text="Description: "
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:background="#FDFCFC"
+                    android:text="The Book is not available at this time. "
+                    android:textSize="25sp"
+                    android:textStyle="normal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:background="#FDFCFC"
+                    android:text="If you order, We can deliver the Book. \n\n\n"
+                    android:textSize="25sp"
+                    android:textStyle="normal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginLeft="50dp"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <GridView
+                    android:id="@+id/bookclassonebooks"
+                    android:numColumns="3"
+                    android:listSelector="#00BCD4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </GridView>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+        
+
+</ScrollView>
+    <LinearLayout
+        android:gravity="center"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="5dp"
+            android:background="#FF9800"
+            android:textSize="17sp"
+            android:text="Buy Now"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:layout_weight="1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="5dp"
+            android:background="#4CAF50"
+            android:textSize="17sp"
+            android:text="Open"
+            android:textStyle="bold"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

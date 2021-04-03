@@ -1,0 +1,133 @@
+<resources>
+    <string name="app_name">OnlineBooks</string>
+    <string-array name="class_name">
+        <item>Play</item>
+        <item>Nursery</item>
+        <item>Class One</item>
+        <item>Class Two</item>
+        <item>Class Three</item>
+        <item>Class Four</item>
+        <item>Class Five</item>
+        <item>Class Six</item>
+        <item>Class Seven</item>
+        <item>Class Eight</item>
+        <item>Class Nine</item>
+        <item>Class Ten</item>
+        <item>Class Eleven</item>
+        <item>Class Twelve</item>
+        <item>Story Books</item>
+        <item>Node Books</item>
+
+    </string-array>
+    <string-array name="classonebooks_name">
+        <item>Mathematics</item>
+        <item>Bangla</item>
+        <item>Bangla Book</item>
+        <item>Story Book</item>
+        <item>Story Book</item>
+        <item>English Book</item>
+        <item>Scince Book</item>
+    </string-array>
+
+
+    <string-array name="nam">
+        <item>MM. Samia</item>
+        <item>IJ. Shoshe</item>
+        <item>Md. Parvez</item>
+    </string-array>
+
+    <string-array name="question">
+        <item>1. what is your name?</item>
+        <item>2. what is your Age?</item>
+        <item>3. what is your name?</item>
+        <item>4. what is your name?</item>
+        <item>5. what is your name?</item>
+        <item>6. what is your name?</item>
+        <item>7. what is your name?</item>
+        <item>8. what is your name?</item>
+        <item>9. what is your name?</item>
+        <item>10. what is your name?</item>
+    </string-array>
+    <string-array name="option1">
+        <item>parvez</item>
+        <item>19 years</item>
+        <item>parvez</item>
+        <item>parvez</item>
+        <item>parvez</item>
+        <item>parvez</item>
+        <item>parvez</item>
+        <item>parvez</item>
+        <item>parvez</item>
+        <item>parvez</item>
+    </string-array>
+    <string-array name="option2">
+        <item>Shoshe</item>
+        <item>20 years</item>
+        <item>Shoshe</item>
+        <item>Shoshe</item>
+        <item>Shoshe</item>
+        <item>Shoshe</item>
+        <item>Shoshe</item>
+        <item>Shoshe</item>
+        <item>Shoshe</item>
+        <item>Shoshe</item>
+    </string-array>
+    <string-array name="option3">
+        <item>Maruf</item>
+        <item>21 years</item>
+        <item>Maruf</item>
+        <item>Maruf</item>
+        <item>Maruf</item>
+        <item>Maruf</item>
+        <item>Maruf</item>
+        <item>Maruf</item>
+        <item>Maruf</item>
+        <item>Maruf</item>
+    </string-array>
+    <string-array name="option4">
+        <item>Samia</item>
+        <item>22 years</item>
+        <item>Samia</item>
+        <item>Samia</item>
+        <item>Samia</item>
+        <item>Samia</item>
+        <item>Samia</item>
+        <item>Samia</item>
+        <item>Samia</item>
+        <item>Samia</item>
+    </string-array>
+    <string-array name="dname">
+        <item>Name: Md Parvez</item>
+        <item>Name: MM. Samia</item>
+        <item>Name: IJ. Shoshe</item>
+        <item>Name: FA. Maruf</item>
+        <item>Name: Bonna Akter</item>
+    </string-array>
+    <string-array name="did">
+        <item>ID: 191-15-2468</item>
+        <item>ID: 191-15-2456</item>
+        <item>ID: 191-15-2474</item>
+        <item>ID: 191-15-2349</item>
+        <item>ID: 191-15-2585</item>
+
+    </string-array>
+    <string-array name="dsection">
+        <item>Section: PC-C</item>
+        <item>Section: PC-C</item>
+        <item>Section: PC-C</item>
+        <item>Section: PC-C</item>
+        <item>Section: PC-C</item>
+
+
+    </string-array>
+    <string-array name="ddpt">
+        <item>Dpt. of CSE, DIU</item>
+        <item>Dpt. of CSE, DIU</item>
+        <item>Dpt. of CSE, DIU</item>
+        <item>Dpt. of CSE, DIU</item>
+        <item>Dpt. of CSE, DIU</item>
+
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#048697"
+    android:layout_height="match_parent"
+    tools:context=".Setting">
+
+    <LinearLayout
+
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:text="Quiz Type"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="#050505"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <RadioGroup
+            android:id="@+id/rediogroup"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/radiobutton1"
+                android:text="15 marks(simple)"
+                android:textSize="20sp"
+                android:textCursorDrawable="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <RadioButton
+                android:id="@+id/radiobutton2"
+                android:text="30 marks(herd)"
+                android:textSize="20sp"
+                android:textCursorDrawable="@null"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+
+
+
+        </RadioGroup>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/settingok"
+                android:layout_weight="1"
+                android:text="Ok"
+                android:layout_marginRight="10dp"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:background="#03A9F4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:id="@+id/settingcancel"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:text="Cancel"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:background="#F44336"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

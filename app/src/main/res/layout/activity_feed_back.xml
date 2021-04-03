@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9F9494"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context=".FeedBack">
+    <TextView
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:background="#F8F6F1"
+        android:textColor="#020202"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:text="Write Your Feedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:padding="20sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="100dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="#676161"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/feedbackemail"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:hint="Enter Your Email"
+            android:textSize="15sp"
+            android:textColor="#020202"
+            android:background="#F8F6F1"
+            android:padding="10dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/feedbackname"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:hint="Enter Your Name"
+            android:textSize="15sp"
+            android:textColor="#020202"
+            android:background="#F8F6F1"
+            android:padding="10dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/feedbackmesssge"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:hint="Enter Your Message"
+            android:textSize="15sp"
+            android:textColor="#020202"
+            android:background="#F8F6F1"
+            android:padding="10dp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/feedbacksend"
+                android:layout_weight="1"
+                android:text="send"
+                android:layout_marginRight="10dp"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:background="#03A9F4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:id="@+id/feedbackcancel"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:text="cancel"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:background="#F44336"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="30dp"
+    android:background="#221515"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AccountActivity">
+
+    <EditText
+        android:id="@+id/phonenumber"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:paddingLeft="30dp"
+        android:background="#E8E0E0"
+        android:hint="Phone Number"
+        android:inputType="phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/password"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:paddingLeft="30dp"
+        android:background="#E8E0E0"
+        android:hint="Password"
+        android:inputType="numberPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/forgotpassword"
+        android:textColor="#ff22"
+        android:layout_marginRight="20dp"
+        android:background="#221515"
+        android:gravity="right"
+        android:text="Forgot password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+
+        android:id="@+id/login"
+        android:textSize="20dp"
+        android:text="Log In"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:paddingLeft="30dp"
+        android:background="#2196F3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

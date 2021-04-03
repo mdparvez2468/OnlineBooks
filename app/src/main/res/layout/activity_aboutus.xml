@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="#605A5A"
+    android:backgroundTint="#5717C8"
+    android:weightSum="10"
+    android:orientation="vertical"
+    tools:context=".AboutusActivity">
+
+    <TextView
+        android:background="#2B0F5E"
+        android:textColor="#FF5722"
+        android:padding="5dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:text="Developed By"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+    <ListView
+
+        android:background="#DAD1D1"
+        android:id="@+id/aboutlistid"
+        android:dividerHeight="30dp"
+        android:divider="#5717C8"
+        android:listSelector="#03A9F4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </ListView>
+
+</LinearLayout>
